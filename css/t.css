@@ -1,14 +1,4 @@
-/*
 
-TemplateMo 567 Nomad Force
-
-https://templatemo.com/tm-567-nomad-force
-
-*/
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
   --primary-color:                #ffc107;
@@ -139,7 +129,7 @@ a:hover {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%; 
   height: 0;
   z-index: -100;
 }
@@ -181,7 +171,7 @@ ul.socialIcons {
   max-width: 1.28571429em;
   height: 1.28571429em;
   white-space: nowrap;
-  line-height: 1.5em; /*it's working only when you write text with icon*/
+  line-height: 1.5em; 
   transition: 0.5s;
   text-decoration: none;
   font-family: arial;
