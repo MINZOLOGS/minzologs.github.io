@@ -7,7 +7,14 @@
   --grey-color:                   #fcfeff;
   --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
   --title-color:                  #565758;
-  --p-color:                      #717275;
+  --p-color:                      #717575;
+  --qp-color:                     #ff9100;
+  --pp-color:                     #000000;
+  --ppp-color:                    #2b2929d2;
+  --g-color:                    #0ceb43d2;
+  --y-color:                    #eecc09ea;
+  --b-color:                    #1924c9d2;
+  --bb-color:                    #18dbf5d2;
 
   --body-font-family:           'Noto Sans JP', sans-serif;
 
@@ -108,12 +115,12 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: var(--ppp-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--pp-color);
 }
 
 ::selection {
@@ -269,7 +276,7 @@ strong {
 }
 
 .navbar-brand {
-  color: var(--primary-color);
+  color: var(--qp-color);
   font-size: 24px;
   font-weight: var(--font-weight-bold);
 }
