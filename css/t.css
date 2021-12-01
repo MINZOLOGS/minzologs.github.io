@@ -15,7 +15,10 @@
   --y-color:                    #eecc09ea;
   --b-color:                    #1924c9d2;
   --bb-color:                    #18dbf5d2;
+<<<<<<< HEAD
   --bbb-color:                    #f08826d2;
+=======
+>>>>>>> 34d9a01f494282dd3f2eac0c31d9b2c35144ed0b
 
   --body-font-family:           'Noto Sans JP', sans-serif;
 
@@ -116,12 +119,20 @@ button {
 }
 
 a {
+<<<<<<< HEAD
   color: var(--bbb-color);
+=======
+  color: var(--ppp-color);
+>>>>>>> 34d9a01f494282dd3f2eac0c31d9b2c35144ed0b
   text-decoration: none;
 }
 
 a:hover {
+<<<<<<< HEAD
   color: var(--y-color);
+=======
+  color: var(--pp-color);
+>>>>>>> 34d9a01f494282dd3f2eac0c31d9b2c35144ed0b
 }
 
 ::selection {
