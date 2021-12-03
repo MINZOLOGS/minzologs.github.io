@@ -39,6 +39,8 @@ body,
 html {
   height: 100%;
 }
+
+
 .our-team{ text-align: center; }
 .our-team .pic{
     border-radius: 50%;
@@ -120,9 +122,10 @@ html {
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family);    
+    font-family: var(--body-font-family);
     position: relative;
 }
+
 .single_advisor_profile {
   position: relative;
   margin-bottom: 50px;
@@ -256,7 +259,7 @@ body {
 }
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -318,7 +321,7 @@ p {
   color: var(--text-secondary-white-color);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -346,7 +349,7 @@ a:hover {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
   z-index: -100;
 }
@@ -388,7 +391,7 @@ ul.socialIcons {
   max-width: 1.28571429em;
   height: 1.28571429em;
   white-space: nowrap;
-  line-height: 1.5em; 
+  line-height: 1.5em;
   transition: 0.5s;
   text-decoration: none;
   font-family: arial;
@@ -430,7 +433,7 @@ ul.socialIcons {
 }
 
 /*---------------------------------------
-  CUSTOM LINK               
+  CUSTOM LINK
 -----------------------------------------*/
 .custom-links {
   max-width: 230px;
@@ -474,7 +477,7 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION               
+  NAVIGATION
 -----------------------------------------*/
 
 .navbar {
@@ -535,7 +538,7 @@ strong {
 }
 
 .navbar-nav .nav-item.active .nav-link,
-.nav-link:focus, 
+.nav-link:focus,
 .nav-link:hover {
   color: var(--dark-color);
 }
@@ -611,7 +614,7 @@ strong {
 }
 
 /*---------------------------------------
-  HERO              
+  HERO
 -----------------------------------------*/
 .hero {
   position: relative;
@@ -647,7 +650,7 @@ strong {
 }
 
 /*---------------------------------------
-  ABOUT & TEAM MEMBERS               
+  ABOUT & TEAM MEMBERS
 -----------------------------------------*/
 .about-image,
 .team-image {
@@ -667,7 +670,7 @@ strong {
   padding: 22px 32px 32px 32px;
 }
 
-.carousel-control-next, 
+.carousel-control-next,
 .carousel-control-prev {
   top: auto;
   bottom: 2.5rem;
@@ -678,7 +681,7 @@ strong {
   left: auto;
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: var(--dark-color);
   background-size: 50% 50%;
@@ -688,7 +691,7 @@ strong {
 }
 
 /*---------------------------------------
-  PORTFOLIO               
+  PORTFOLIO
 -----------------------------------------*/
 .portfolio-thumb {
   position: relative;
@@ -700,7 +703,7 @@ strong {
 }
 
 /*---------------------------------------
-  NEWS & EVENTS               
+  NEWS & EVENTS
 -----------------------------------------*/
 
 .news,
@@ -810,7 +813,7 @@ strong {
 }
 
 /*---------------------------------------
-  SECTION               
+  SECTION
 -----------------------------------------*/
 .section-padding {
   padding-top: 7rem;
@@ -818,7 +821,7 @@ strong {
 }
 
 /*---------------------------------------
-  CONTACT              
+  CONTACT
 -----------------------------------------*/
 .contact-info {
   padding: 40px;
@@ -857,7 +860,7 @@ strong {
 }
 
 /*---------------------------------------
-  SITE FOOTER               
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   background: var(--dark-color);
@@ -881,7 +884,7 @@ strong {
 }
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -909,7 +912,7 @@ strong {
 }
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .news-two-column {
@@ -988,4 +991,110 @@ strong {
     font-size: 22px;
   }
 }
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
+
+
+@media (max-width: 400px) {
+
+}
+
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
+
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;
+}
+
+img {
+    float: right;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+
+    }
+    .header p {
+        width: 30%;
+    }
+
+}
